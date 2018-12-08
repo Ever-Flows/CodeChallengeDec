@@ -2,7 +2,7 @@
 This git is a repsonse to Code challenge received on 12/7/2018
 
 # Requirements
-The requirements of the code challenge are in the [pdf file](https://github.com/Ever-Flows/CodeChallenge/blob/master/Automation%20Code%20Challenge%20ver%205%5B2%5D.pdf) in this repository. 
+The requirements of the code challenge are in the [pdf file](https://github.com/Ever-Flows/CodeChallengeDec/blob/master/Housecall%20Pro%20Data%20Solutions%20Architect%20Assessment.pdf) in this repository. 
 
 # Setup
 Assumption 
@@ -17,15 +17,15 @@ No new modules need to be installed
 # Usage
 * *python retrieve.py ci.csv weather-2018-12-08.sl3* runs the code and meets all requirements outlined Exercise 1.1 of  the requirements pdf files. It creates two tables in the output sqllite3 file. One for City data and the other for forecast as requested. The program frst retrives the data and stores in csv files and subsequently updartes the database.
 
-* *python table2.py forecast-2018-12-08.data weather-2018-12-08.sl3 * helps with requirement 1.2 and creates the table in the input sqllite2 database file. the table is names forecast5days
+* *python table2.py forecast-2018-12-08.data weather-2018-12-08.sl3* helps with requirement 1.2 and creates the table in the input sqllite2 database file. the table is names forecast5days
 
-* *python distance2.py "Kansas City" 100 weather-2018-12-08.sl3 * helps with requirement in Exercise 3. It outputs the json data as requested giving the count and mean temp/humidity for the cities in the provided radius.
+* *python distance2.py "Kansas City" 100 weather-2018-12-08.sl3* helps with requirement in Exercise 3. It outputs the json data as requested giving the count and mean temp/humidity for the cities in the provided radius.
 
 
 
 # Other Files
 * **.data files* as retrieved from the Yahoo API
-* *error*.log files* are for data retrieval errors
+* *error.log files* are for data retrieval errors
 * **.sl3 files* are sqllite3 files
 * **.sql files* are mysql scripts
 
@@ -70,6 +70,10 @@ No new modules need to be installed
 * set up the api and make sure that the API gateway requests and have access to the database. 
 * challenges - city names not match or found - may not be adapted the way it is requested
    assumptions - database is available on the server
+
+
+# Misc 
+All data files and database files are in the repo
 
 
 
