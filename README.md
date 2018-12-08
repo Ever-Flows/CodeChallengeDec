@@ -12,7 +12,7 @@ Assumption
 No new modules need to be installed
 * **Create codech environment** type in terminal window: conda create -n codech python=3.6
 * **Activate environment** type in terminal window: source activate codech
-* **Check modules** - Compare with modules in [modules.txt](https://github.com/Ever-Flows/CodeChallenge/blob/master/modules.txt)
+* **Check modules** - Compare with modules in [modules.txt](https://github.com/Ever-Flows/CodeChallengeDec/blob/master/modules.txt)
 
 # Usage
 * *python retrieve.py ci.csv weather-2018-12-08.sl3* runs the code and meets all requirements outlined Exercise 1.1 of  the requirements pdf files. It creates two tables in the output sqllite3 file. One for City data and the other for forecast as requested. The program frst retrives the data and stores in csv files and subsequently updartes the database.
