@@ -50,7 +50,7 @@ No new modules need to be installed
 
 
 # Exercise 2
-* fill.sql script is attached. It is for mysql. It sis not complete and not tested. Requires more work but works out the design and is close to full implementation. The script is easier in [MS SQL] (https://koukia.ca/common-sql-problems-filling-null-values-with-preceding-non-null-values-ad538c9e62a6) but requires a lot more work on mysql.
+* fill.sql script is attached. It is for mysql. It sis not complete and not tested. Requires more work but works out the design and is close to full implementation. The script is easier in [MS SQL](https://koukia.ca/common-sql-problems-filling-null-values-with-preceding-non-null-values-ad538c9e62a6) but requires a lot more work on mysql.
 * The problem is trivial if we use Python to forward fill the nulls as demonstrated in fillforward.py. The Python script assumes database and tables are set up using the fill2.sql script. This is tested and works as required.
 
 
