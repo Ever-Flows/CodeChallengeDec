@@ -20,7 +20,7 @@ BEGIN
 END;
 |
 DELIMITER ;
-CALL filldates('2017-01-01','2016-12-31');
+CALL filldates('2017-01-01','2017-12-31');
 
 create table test select * from calendar left outer join plans on calendar.d = plans.dd order by d 
 
