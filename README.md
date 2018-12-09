@@ -44,9 +44,12 @@ No new modules need to be installed
 * also change database to hold more data if needed
 4. For expectations 
 * will make sure that the tables meet the requirements 
+* Indicate that some cities like Sweethome, Or (and Ontario, CA) did not pull data on some pulls
+* Indicate that some cities like Clairmont, CA pull as San Diego, CA
 * and if forecast for next 10 days need to be stored for every pull
 * Also look at data retention and adjust script accordingly
 * Wind chill and Wind speed are not available as forecasts - so will confirm that - probably move to another API
+* Negotiate better timelines and let it be known that this cannot get to production level in a few hours 
 
 
 # Exercise 2
